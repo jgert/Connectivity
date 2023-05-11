@@ -12,7 +12,7 @@ import Network
 import UIKit
 #endif
 #if IMPORT_REACHABILITY
-import Reachability
+import ConnectivityReachability
 #endif
 
 @objcMembers

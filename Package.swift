@@ -17,13 +17,13 @@ let package = Package(
     targets: [
         .target(
             name: "Connectivity",
-            dependencies: ["Reachability"],
+            dependencies: ["ConnectivityReachability"],
             path: "Connectivity/Classes",
             exclude: ["Reachability"],
             swiftSettings: [.define("IMPORT_REACHABILITY")]
         ),
         .target(
-            name: "Reachability",
+            name: "ConnectivityReachability",
             dependencies: [],
             path: "Connectivity/Classes/Reachability",
             publicHeadersPath: "",
